@@ -1,0 +1,26 @@
+{
+  "name": "typescript-katas",
+  "version": "1.0.0",
+  "description": "Solutions of katas available on codewars.com - but with unit tests",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wojcirej/typescript-katas.git"
+  },
+  "author": "Wojciech Bal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wojcirej/typescript-katas/issues"
+  },
+  "homepage": "https://github.com/Wojcirej/typescript-katas#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.3.12",
+    "@types/node": "^11.13.7",
+    "jasmine": "^3.4.0",
+    "jasmine-custom-reporters": "^1.2.1"
+  }
+}
